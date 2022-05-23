@@ -1,0 +1,41 @@
+input{
+    display: block;
+    width: 17rem;
+    margin: 0.3rem;
+    border: 1px solid silver;
+    font-size: 2rem;
+    text-align: right;
+}
+.numbers button, .operators button{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    border: 2px solid silver;
+    outline-width: 0;
+}
+button:hover{
+    border-color: gray;
+}
+button:active{ 
+/* kiedy guzik wcisniety */
+    font-weight: bold;
+    background-color: silver;
+}
+.left-panel, .right-panel{
+    /* wyrównanie operatorów */
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+
+}
+
+button.big-button{
+    height: 6.1rem;
+}
+button.clear{
+    background-color: rgb(205, 145, 139);
+}
+button.result{
+    background-color: rgb(255, 234, 196);
+}
